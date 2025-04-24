@@ -1,13 +1,84 @@
+# 📄 Página de Login com React
+Uma aplicação simples de login desenvolvida com React, utilizando useState para gerenciamento de estado e validação básica de campos.
+
+# 🧰 Tecnologias Utilizadas
+- React 
+
+- JavaScript (ES6+)
+
+- HTML5
+
+- CSS3 (inline)
+
+- Vite (ou Create React App, dependendo da sua escolha)
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔧 Sobre o Template
 
-Currently, two official plugins are available:
+Este template fornece uma configuração mínima para fazer o **React** funcionar com o **Vite**, incluindo **HMR (Hot Module Replacement)** e algumas regras básicas do **ESLint**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📦 Plugins Oficiais Disponíveis
 
-## Expanding the ESLint configuration
+Atualmente, dois plugins oficiais estão disponíveis:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# paginalogin
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react) – Utiliza **Babel** para o *Fast Refresh*
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc) – Utiliza **SWC** para o *Fast Refresh*
+
+### 📏 Expandindo a Configuração do ESLint
+
+Se você estiver desenvolvendo uma aplicação para **produção**, recomendamos o uso de **TypeScript** com regras de lint sensíveis a tipos (type-aware lint rules).
+
+# 🧪 Funcionalidades
+
+- Campo de entrada para email.
+
+- Campo de entrada para senha.
+
+- Validação para garantir que ambos os campos estejam preenchidos.
+
+- Exibição de alerta simulando o processo de login.
+
+# 📁 Estrutura de Pastas
+```
+src/
+├── pages/
+│   └── Login.jsx
+├── App.jsx
+└── main.jsx
+```
+
+# 🚀 Como Executar o Projeto
+## Pré-requisitos
+
+- Node.js instalado na máquina.
+
+- npm ou yarn como gerenciador de pacotes.
+
+# Passo a Passo
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+2. Navegue até o diretório do projeto:
+```bash
+cd nome-do-repositorio
+```
+3. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+```
+4. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+5. Acesse a aplicação no navegador:
+```bash
+http://localhost:5173
+```
+
+# 🙋‍♀️ Autora
+- Brenda Ramos
